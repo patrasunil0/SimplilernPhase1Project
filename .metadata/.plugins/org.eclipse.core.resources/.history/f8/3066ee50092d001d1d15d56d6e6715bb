@@ -13,7 +13,7 @@ public class ClinetApp {
 		do
 		{
 			LockedMe.displayMenu();
-			System.out.println("Enter Your Choice: ");
+//			System.out.println("Enter Your Choice: ");
 			ch = Integer.parseInt(obj.nextLine());
 			
 			switch(ch)

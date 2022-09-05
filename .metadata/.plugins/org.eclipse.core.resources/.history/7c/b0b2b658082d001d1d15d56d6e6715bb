@@ -19,9 +19,6 @@ public class ClinetApp {
 			switch(ch)
 			{
 				case 1:LockedMe.getAllFiles();
-				break;
-				case 2:LockedMe.creatFiles();
-				break;
 				
 			
 			}

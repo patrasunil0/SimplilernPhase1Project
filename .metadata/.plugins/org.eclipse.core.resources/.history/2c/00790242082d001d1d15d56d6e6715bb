@@ -1,8 +1,6 @@
 package lockedMe.com;
 
 import java.io.File;
-import java.io.FileWriter;
-import java.util.Scanner;
 
 public class LockedMe {
 	
@@ -14,7 +12,7 @@ public class LockedMe {
 		System.out.println("\tDeveloped by Sunil Kumar Patra");
 		System.out.println("*********************************************");
 		System.out.println("\t\t1. Display all Files");
-		System.out.println("\t\t2. Add files to the existing directory list");	
+		
 	}
 
 	
@@ -38,35 +36,6 @@ public class LockedMe {
 		{
 			System.out.println("The Folder is Empty");
 		}
-	}
-	public static void creatFiles()
-	{
-		try 
-		{
-			Scanner obj = new Scanner(System.in);
-			String fileName;
-			System.out.println("Enter the File Name: ");
-			fileName = obj.nextLine();
-			
-			int linesCount;
-			System.out.println("Enter How many Lines you want to Enter : ");
-			linesCount = Integer.parseInt(obj.nextLine());
-			
-			FileWriter fw = new FileWriter (projectFilesPath+ "\\"+fileName);
-			for(int i=1;i<=linesCount;i++)
-			{
-				System.out.println("Enter the File Line: ");
-				fw.write(obj.nextLine()+"\n");
-			}
-			System.out.println("File Creat Succesessfully");
-			fw.close();
-			
-		}
-		catch (Exception e)
-		{
-			
-		}
-		
 	}
 	
 }

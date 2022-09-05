@@ -14,7 +14,8 @@ public class LockedMe {
 		System.out.println("\tDeveloped by Sunil Kumar Patra");
 		System.out.println("*********************************************");
 		System.out.println("\t\t1. Display all Files");
-		System.out.println("\t\t2. Add files to the existing directory list");	
+		System.out.println("\t\t2. Add files to the existing directory list");
+		
 	}
 
 	
@@ -53,7 +54,7 @@ public class LockedMe {
 			linesCount = Integer.parseInt(obj.nextLine());
 			
 			FileWriter fw = new FileWriter (projectFilesPath+ "\\"+fileName);
-			for(int i=1;i<=linesCount;i++)
+			for(int i=1;i<linesCount;i++);
 			{
 				System.out.println("Enter the File Line: ");
 				fw.write(obj.nextLine()+"\n");
