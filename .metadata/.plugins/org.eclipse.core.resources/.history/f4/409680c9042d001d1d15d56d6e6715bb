@@ -11,7 +11,7 @@ public class LockedMe {
 		System.out.println("\tWelcome to LockedMe.com Secure App");
 		System.out.println("\tDeveloped by Sunil Kumar Patra");
 		System.out.println("*********************************************");
-		System.out.println("\t\t1. Display all Files");
+		System.out.println("\t\1. Display all Files");
 		
 	}
 

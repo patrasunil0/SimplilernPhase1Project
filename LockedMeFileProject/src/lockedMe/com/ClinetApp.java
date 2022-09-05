@@ -1,10 +1,32 @@
 package lockedMe.com;
 
+import java.util.Scanner;
+
 public class ClinetApp {
 
 	public static void main(String[] args) {
 		
+			
+		Scanner obj = new Scanner(System.in);
+		int ch;
+		
+		do
+		{
 			LockedMe.displayMenu();
+			System.out.println("Enter Your Choice: ");
+			ch = Integer.parseInt(obj.nextLine());
+			
+			switch(ch)
+			{
+				case 1:LockedMe.getAllFiles();
+				
+			
+			}
+			
+		}
+		while(ch>0);
+		obj.next();
+		obj.close();
 				
 
 	}
