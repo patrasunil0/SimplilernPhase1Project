@@ -1,0 +1,18 @@
+package lockedMe.com;
+
+import java.io.File;
+
+
+public class LockedMe {
+	
+	static final String projectFilesPath = "D:\\JAVA\\SimpliLearn\\Project\\Submission\\LockedMeFile";
+	public static void displayMenu()
+	{
+		System.out.println("*********************************************");
+		System.out.println("\tWelcome to LockedMeFile.com");
+		System.out.println("\tDeveloped by Sunil Kumar Patra");
+		System.out.println("*********************************************");
+		
+	}
+
+}

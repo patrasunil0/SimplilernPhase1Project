@@ -1,0 +1,21 @@
+package lockedMe.com;
+
+import java.util.Scanner;
+
+public class ClinetApp {
+
+	public static void main(String[] args) {
+		Scanner obj = new Scanner(System.in);
+		int opt;
+		
+		
+		{
+			LockedMe.displayMenu();
+			
+			
+		}
+		
+
+	}
+
+}
