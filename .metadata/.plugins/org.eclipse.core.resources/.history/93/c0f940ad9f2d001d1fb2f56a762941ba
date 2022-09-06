@@ -17,7 +17,6 @@ public class LockedMe {
 		System.out.println("\t\t2. Add files to the existing directory list");	
 		System.out.println("\t\t3. Delete a File");
 		System.out.println("\t\t4. Searche a File");
-		System.out.println("\t\t5. Exit");
 	}
 	public static void getAllFiles()
 	{

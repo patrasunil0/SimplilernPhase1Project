@@ -26,7 +26,7 @@ public class ClinetApp {
 				break;
 				case 4:LockedMe.searchFiles();
 				break;
-				case 5:System.out.println("\"Thank you\" Visit Again !!!!!"); 
+				case 5:System.out.println("\"Thank you\" visit again !!!!!"); 
 				System.exit(0);
 				break;
 				default:System.out.println("Invalid option");
