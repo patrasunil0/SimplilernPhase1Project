@@ -56,7 +56,7 @@ public class LockedMe {
 				System.out.println("Enter the File Line: ");
 				fw.write(obj.nextLine()+"\n");
 			}
-			System.out.println("File Create Successfully");
+			System.out.println("File Creat Succesessfully");
 			fw.close();
 			
 		}
