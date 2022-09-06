@@ -88,12 +88,11 @@ public class LockedMe {
 	{
 		Scanner obj = new Scanner(System.in);
 		String fileName;
-		System.out.println("Enter the File Name: ");
 		fileName = obj.nextLine();
 		File f = new File (projectFilesPath+"\\"+fileName);
 		if (f.exists())
 		{
-			System.out.println("The File is available");
+			System.out.println("\"Yes\", File is available");
 		}
 		else
 		{

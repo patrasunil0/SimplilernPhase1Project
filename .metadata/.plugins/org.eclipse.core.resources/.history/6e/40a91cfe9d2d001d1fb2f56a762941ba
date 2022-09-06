@@ -16,7 +16,6 @@ public class LockedMe {
 		System.out.println("\t\t1. Display all Files");
 		System.out.println("\t\t2. Add files to the existing directory list");	
 		System.out.println("\t\t3. Delete a File");
-		System.out.println("\t\t4. Searche a File");
 	}
 	public static void getAllFiles()
 	{
@@ -83,22 +82,6 @@ public class LockedMe {
 			System.out.println("File not found");
 		}
 			
-	}
-	public static void searchFiles()
-	{
-		Scanner obj = new Scanner(System.in);
-		String fileName;
-		System.out.println("Enter the File Name: ");
-		fileName = obj.nextLine();
-		File f = new File (projectFilesPath+"\\"+fileName);
-		if (f.exists())
-		{
-			System.out.println("The File is available");
-		}
-		else
-		{
-			System.out.println("File not found");
-		}
 	}
 	
 }

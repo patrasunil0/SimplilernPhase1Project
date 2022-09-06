@@ -93,7 +93,7 @@ public class LockedMe {
 		File f = new File (projectFilesPath+"\\"+fileName);
 		if (f.exists())
 		{
-			System.out.println("The File is available");
+			System.out.println("\"Yes\", File is available");
 		}
 		else
 		{
