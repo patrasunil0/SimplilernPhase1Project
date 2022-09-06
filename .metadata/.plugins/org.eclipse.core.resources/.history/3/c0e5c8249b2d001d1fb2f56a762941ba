@@ -22,8 +22,7 @@ public class ClinetApp {
 				break;
 				case 2:LockedMe.creatFiles();
 				break;
-				case 3:LockedMe.deleteFiles();
-				break;
+				
 			
 			}
 			

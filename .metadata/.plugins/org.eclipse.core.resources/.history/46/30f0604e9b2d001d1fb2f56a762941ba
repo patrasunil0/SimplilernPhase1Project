@@ -15,8 +15,11 @@ public class LockedMe {
 		System.out.println("*********************************************");
 		System.out.println("\t\t1. Display all Files");
 		System.out.println("\t\t2. Add files to the existing directory list");	
-		System.out.println("\t\t3. Delete a File");
 	}
+
+	
+	
+	
 	public static void getAllFiles()
 	{
 		File folder = new File(projectFilesPath);

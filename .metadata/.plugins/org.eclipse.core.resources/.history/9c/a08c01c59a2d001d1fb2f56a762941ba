@@ -15,8 +15,11 @@ public class LockedMe {
 		System.out.println("*********************************************");
 		System.out.println("\t\t1. Display all Files");
 		System.out.println("\t\t2. Add files to the existing directory list");	
-		System.out.println("\t\t3. Delete a File");
 	}
+
+	
+	
+	
 	public static void getAllFiles()
 	{
 		File folder = new File(projectFilesPath);
@@ -28,7 +31,8 @@ public class LockedMe {
 			for(var l:listOfFile)
 			{
 				System.out.println(l.getName());
-			}	
+			}
+				
 		}
 		else
 		{
@@ -63,25 +67,6 @@ public class LockedMe {
 			
 		}
 		
-	}
-	public static void deleteFiles()
-	{
-		
-		Scanner obj = new Scanner(System.in);
-		String fileName;
-		System.out.println("Enter the File Name: ");
-		fileName = obj.nextLine();
-		File f = new File(projectFilesPath+"\\"+fileName);
-		if(f.exists())
-		{
-			f.delete();
-			System.out.println("File successfully deleted");
-		}
-		else
-		{
-			System.out.println("File not found");
-		}
-			
 	}
 	
 }
